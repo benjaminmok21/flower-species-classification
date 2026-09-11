@@ -11,6 +11,16 @@ The main question was:
 
 > How does a CNN trained from scratch compare with a pretrained transfer-learning model for multiclass flower-species classification?
 
+## 🌸 Try the Live Flower Classifier
+
+A live version of the trained MobileNetV2 model is available for testing.
+
+**[Open the Flower Classifier](https://flower-species-classification.streamlit.app/)**
+
+Upload a flower image and the application will show the model's predicted flower class, confidence score and top three predictions.
+
+> **Note:** The model was trained to recognise only the 17 flower classes in the Oxford 17 Flowers dataset. If an image outside these classes is uploaded, the model will still choose one of the 17 known classes.
+
 ## Dataset
 
 The Oxford 17 Flowers dataset contains 1,360 images from 17 flower classes, with 80 images per class.
